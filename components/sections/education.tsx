@@ -11,11 +11,11 @@ const educationData = [
     location: "University of Rome Tor Vergata",
     period: "2011 - 2015",
     experiences: [
-      "Gained a strong foundation in computer science principles, including algorithms, data structures, and software development.",
-      "Developed problem-solving and analytical skills through various projects and coursework.",
-      "Learned programming languages such as JavaScript, Python, and C/C++.",
-      "Collaborated with peers on team projects, enhancing communication and teamwork abilities.",
-      "Explored topics like artificial intelligence, databases, and web development.",
+      // "Gained a strong foundation in computer science principles, including algorithms, data structures, and software development.",
+      // "Developed problem-solving and analytical skills through various projects and coursework.",
+      // "Learned programming languages such as JavaScript, Python, and C/C++.",
+      // "Collaborated with peers on team projects, enhancing communication and teamwork abilities.",
+      // "Explored topics like artificial intelligence, databases, and web development.",
     ],
   },
 ];

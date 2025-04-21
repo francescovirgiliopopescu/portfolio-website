@@ -37,8 +37,8 @@ const NoticeBox: FC<NoticeBoxProps> = ({
       </div>
       <div className="flex flex-col gap-2 ml-16 mt-4">
         {experiences.map((experience, index) => (
-          <p key={index} className="text-sm">
-            - {experience}
+          <p key={index} className="text-base opacity-90">
+            {experience}
           </p>
         ))}
       </div>
