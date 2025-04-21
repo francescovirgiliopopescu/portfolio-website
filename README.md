@@ -36,7 +36,7 @@ I'm **Francesco Popescu**, a Full Stack Software Developer passionate about buil
 
 ### 📫 Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/francesco-popescu-19887435a/)
+- [LinkedIn](https://www.linkedin.com/in/popescu0400/)
 - [Portfolio](https://francescopopescu.it.com/)
 - [Email](francescovirgiliopopescu@gmail.com)
 

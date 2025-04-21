@@ -35,8 +35,8 @@ const ProfileSectoin: FC = () => {
                 className="hover:text-green-600 transition-all"
               />
             </a>
-            {/* <a href="https://github.com/francescovirgiliopopescu"> */}
-            <a href="https://github.com/h0lme3">
+            <a href="https://github.com/francescovirgiliopopescu">
+              {/* <a href="https://github.com/h0lme3"> */}
               <FiGithub
                 size={22}
                 className="hover:text-green-600 transition-all"
