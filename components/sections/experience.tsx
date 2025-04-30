@@ -22,18 +22,18 @@ const experienceData = [
   },
   {
     img: crypto_hunters_logo,
-    title: "Frontend Lead",
+    title: "Frontend Web3 Developer",
     location: "Crypto Hunters",
-    period: "2023 - 2024",
+    period: "2022 - 2024",
     experiences: [
-      "Developed a modern, responsive landing page for the Crypto Hunters using Next.js and SCSS, focusing on performance, SEO, and cross-device compatibility. Leveraged Next.js features such as static site generation (SSG) and image optimization to enhance load speed and search engine visibility. Structured styles using modular SCSS for maintainability and scalability, ensuring consistent design across components. Implemented animations, interactive sections, and reusable UI elements to improve user engagement and brand presentation. Collaborated closely with UI/UX designer and another frontend engineer to deliver a polished, user-friendly experience that aligns with the Cryto Hunters's branding and goals.",
+      "Developed a modern, responsive dApp for the Crypto Hunters using Next.js and SCSS, focusing on performance, SEO, and cross-device compatibility. Leveraged Next.js features such as static site generation (SSG) and image optimization to enhance load speed and search engine visibility. Structured styles using modular SCSS for maintainability and scalability, ensuring consistent design across components. Implemented animations, interactive sections, and reusable UI elements to improve user engagement and brand presentation. Collaborated closely with UI/UX designer and another frontend engineer to deliver a polished, user-friendly experience that aligns with the Cryto Hunters's branding and goals.",
     ],
   },
   {
     img: midas_logo,
     title: "Senior Frontend Developer | Problem Solver",
-    location: "Midas Solutions",
-    period: "2022 - 2023",
+    location: "Midas Solutions LTD",
+    period: "2020 - 2022",
     experiences: [
       "Worked as a senior frontend developer and debugging engineer, focusing on NFT marketplace using React, TypeScript, Tailwind CSS.",
       "After complete this NFT marketplace, I developed a Landing page with Next.js, Tailwind CSS and Typescript.",
@@ -43,18 +43,9 @@ const experienceData = [
     img: hilo_logo,
     title: "Frontend Web3 Developer",
     location: "Hilo Labs",
-    period: "2019 - 2022",
+    period: "2017 - 2020",
     experiences: [
       "I was a team member(web3 engineer myself) of blockchaind development team, and developed and maintained responsive, user-friendly dApps using React, Next.js, and TypeScript, integrating seamlessly with EVM-compatible smart contracts via ethers.js and wagmi.",
-    ],
-  },
-  {
-    img: avant_logo,
-    title: "Frontend Developer",
-    location: "Avantgards Labs",
-    period: "2017 - 2019",
-    experiences: [
-      "Frontend developer role focused on building responsive, user-friendly web applications using React, Redux, and JavaScript. Collaborated with designers and backend developers to create seamless user experiences and ensure high performance across devices.",
     ],
   },
 ];

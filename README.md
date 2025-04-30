@@ -1,45 +1,36 @@
-## Hi there 👋
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<!--
-**francescovirgiliopopescu/francescovirgiliopopescu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Getting Started
 
-Here are some ideas to get you started:
+First, run the development server:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-I'm **Francesco Popescu**, a Full Stack Software Developer passionate about building scalable, high-performance web and blockchain applications.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### 🚀 What I Do
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- 💻 Full Stack Development (React, Next.js, TypeScript, Python, Django)
-- ⚙️ DevOps (CI/CD, Docker, Kubernetes, AWS, Redis)
-- 🌐 Web3 & Blockchain (Solidity, Ethers.js, wagmi, dApp development)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### 🔧 Some Technologies I Work With
+## Learn More
 
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=next.js)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### 📫 Let's Connect
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- [LinkedIn](https://www.linkedin.com/in/popescu0400/)
-- [Portfolio](https://francescopopescu.it.com/)
-- [Email](francescovirgiliopopescu@gmail.com)
+## Deploy on Vercel
 
-Thanks again for visiting me, feel free to explore, fork, star ⭐️, or reach out!
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Happy coding! 🚀
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
