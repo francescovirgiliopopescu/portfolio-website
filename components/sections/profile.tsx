@@ -6,19 +6,19 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FiGithub } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 
-// import photo from "@/public/assets/avatar.png";
+import photo from "@/public/assets/avatar.png";
 
 const ProfileSectoin: FC = () => {
   return (
     <div>
       <div className="flex flex-row gap-8 items-center">
-        {/* <Image
+        <Image
           alt="Avatar"
           src={photo.src}
           width={140}
           height={140}
           className="rounded-xl md:w-[140px] md:h-[140px] w-[120px] h-[120px]"
-        /> */}
+        />
         {/* <div className="w-[140px] h-[140px] bg-amber-50 rounded-2xl"></div> */}
         <div className="flex flex-col gap-2 sm:gap-3">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
@@ -36,13 +36,11 @@ const ProfileSectoin: FC = () => {
               />
             </a>
             <a href="https://github.com/francescovirgiliopopescu">
-              {/* <a href="https://github.com/h0lme3"> */}
               <FiGithub
                 size={22}
                 className="hover:text-green-600 transition-all"
               />
             </a>
-            {/* <a href="https://www.linkedin.com/in/francesco-popescu-19887435a/"> */}
             <a href="https://linkedin.com/in/popescu0400">
               <CiLinkedin
                 size={24}
@@ -69,7 +67,8 @@ const ProfileSectoin: FC = () => {
         </p>
         <p>
           <b>Skills</b>: <br /> HTML, CSS, JavaScript, Typescript, Next.js,
-          React, Redux, Tailwind, Node.js, NestJS, Python, GraphQL, CI/CD, Git
+          React, Redux, Tailwind, Node.js, NestJS, Python, Redis, GraphQL,
+          CI/CD, Git, Docket, Kubernetes
         </p>
       </div>
     </div>
