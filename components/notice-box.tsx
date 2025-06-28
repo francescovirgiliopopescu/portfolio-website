@@ -7,7 +7,12 @@ interface NoticeBoxProps {
   title: string; // Title of the experience
   location: string; // Location of the experience
   period: string; // Period of the experience
-  experiences: string[]; // List of experiences
+  overview?: string; // Overview of the experience (optional)
+  experiences: {
+    // List of experiences
+    project: string; // Project name
+    achievement: string[]; // List of achievements in the project
+  }[]; // Array of experiences
 }
 
 const NoticeBox: FC<NoticeBoxProps> = ({
@@ -15,6 +20,7 @@ const NoticeBox: FC<NoticeBoxProps> = ({
   title,
   location,
   period,
+  overview = "",
   experiences,
 }) => {
   return (
@@ -35,13 +41,19 @@ const NoticeBox: FC<NoticeBoxProps> = ({
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-2 ml-16 mt-4">
-        {experiences.map((experience, index) => (
-          <p key={index} className="text-base opacity-90">
-            {experience}
-          </p>
-        ))}
-      </div>
+      <p className="ml-16 mt-4">{overview}</p>
+      {experiences.map((experience, index) => (
+        <div key={index} className="flex flex-col gap-2 ml-16 mt-4">
+          <p className="text-base opacity-90 italic">{experience.project}</p>
+          <ul className="list-disc list-outside text-sm sm:text-base ml-6">
+            {experience.achievement.map((item, idx) => (
+              <li key={idx} className="text-gray-300">
+                {item}
+              </li>
+            ))}{" "}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 };
