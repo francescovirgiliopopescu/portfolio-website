@@ -8,7 +8,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start w-full max-w-3xl h-full mt-30">
         <ProfileSectoin />
         <ExperienceSection />
-        <EducationSection />
+        {/* <EducationSection /> */}
       </main>
       <footer className="flex justify-center items-center w-full max-w-3xl border-t border-gray-200 p-8 mt-12">
         <span className="text-sm opacity-80">@2025 · All rights reserved.</span>
